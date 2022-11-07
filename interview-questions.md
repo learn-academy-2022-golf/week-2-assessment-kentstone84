@@ -1,6 +1,4 @@
-# ASSESSMENT 2: Interview Practice Questions
-
-Answer the following questions.
+#Answer the following questions.
 
 First, without external resources. Challenge yourself to answer from memory as if you were in a job interview.
 
@@ -22,9 +20,8 @@ Researched answer: Parameter variables import arguments into the function. Inste
 
 2. The JavaScript built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
-Your answer:
-
-Researched answer:
+Your answer: Value and index are the two predefined parameters. Value is required and index is not. 
+Researched answer: I was wrong... there are three predefined parameters for .map(). .Map is a nonmutating method that creates an array by calling a specific function on each element of the array. .Map is used to iterate over an array and working on every element inside that array while returning a new array. Current Value is a required predetermed parameter, whole index and arr are optional. Arr hold the array while index holds the index on the current element. Current Value, the only required parameter runs on each element of the array. 
 
 3. What is the difference between map and filter?
 
