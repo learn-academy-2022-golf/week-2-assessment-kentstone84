@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn jest
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.0.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/home/Desktop/Golf/week-2-assessment-kentstone84/package.json: Unexpected token 'd', "describe(""... is not valid JSON
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  describe("multByThree", () => {
+      it ("takes in an array of numbers and returns an array with all the numbers multiplied by 3.", () =>
+      const numbersArray1 = [6, 7, 8, 9, 10]
+      const numbers10utput = [18, 21, 24, 27, 30]
+      const numbersArray2 = [24, 27, 30, 33, 36]
+      const numbers20utput = [72, 81, 90, 99, 108]
+      expect (multByThree (numbersArray1)) . toEqual (numbers10utput)
+      expect (multByThree (numbersArray2)) . toEqual (numbers20utput)
+      expect (multByThree (numbersArray2)) • toEqual (numbers20utput)
+      })
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
