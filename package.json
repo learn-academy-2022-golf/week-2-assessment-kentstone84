@@ -1,0 +1,26 @@
+{
+  "name": "week-2-assessment-kentstone84",
+  "version": "1.0.0",
+  "description": "Being a developer requires an acute attention to detail. The expectation of this assessment is that all instructions are read carefully and followed completely.",
+  "main": "code-challenges.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-academy-2022-golf/week-2-assessment-kentstone84.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-academy-2022-golf/week-2-assessment-kentstone84/issues"
+  },
+  "homepage": "https://github.com/learn-academy-2022-golf/week-2-assessment-kentstone84#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "jest": "^29.2.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1"
+  }
+}
